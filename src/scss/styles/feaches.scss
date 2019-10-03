@@ -1,0 +1,40 @@
+.feaches{
+  padding: 90px 0;
+  h1{
+    margin-bottom: 40px;
+  }
+  .logo{
+    max-width: 270px;
+  }
+  .col-5{
+    padding-bottom: 40px;
+  }
+}
+
+.feach__text{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.feach__item__img{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+.feach__img{
+  max-width: 100%;
+  max-height: 100%;
+
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto
+}
+
+.feach__img--pers{
+  max-height: 70%;
+}
