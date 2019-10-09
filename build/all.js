@@ -1,1 +1,1 @@
-$(".burger").on("click",function(e){e.preventDefault,$(this).toggleClass("burger-active"),$(".nav__active").toggleClass("nav__active-b")});
+$(".burger").on("click",function(e){e.preventDefault,$(this).toggleClass("burger-active"),$(".nav-active").toggleClass("nav-active_burger")});
