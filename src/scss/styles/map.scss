@@ -1,14 +1,16 @@
 .map{
   padding-top: 110px;
-  .address__text{
-    color: black;
-    @include helvetica(medium)
-  }
-}
 
-.map__address {
-  padding-top: 90px;
-  padding-bottom: 40px;
+  &__address{
+    padding-top: 90px;
+    padding-bottom: 40px;
+
+    &-text{
+      color: black;
+      @include helvetica(medium);
+      margin-left: 10px;
+    }
+  }
 }
 
 #map{
