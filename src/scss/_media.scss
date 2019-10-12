@@ -180,6 +180,18 @@
         height: 245px;
         width: 245px;
       }
+
+      &__info{
+        padding-left: 30px;
+        height: 100px;
+      }
+
+      &__title{
+
+        &:after{
+          margin: 10px 0;
+        }
+      }
     }
 
   }
@@ -206,10 +218,22 @@
 
     &-card{
       padding: 20px 10px;
+      width: 182px;
+      height: 150px;
+      margin: 0 auto 30px;
+
+      &__img{
+        height: 50px;
+        width: auto;
+      }
 
       &__line{
         width: 125px;
         height: 1px;
+      }
+
+      &__text{
+        font-size: 20px;
       }
     }
   }
@@ -277,6 +301,15 @@
     &-card{
       margin: 0;
       min-width: 320px;
+
+      &__box{
+        padding: 20px 0;
+
+        &-img{
+          width: 115px;
+          height: auto;
+        }
+      }
     }
   }
 
@@ -352,8 +385,26 @@
   .footer{
     padding-top: 60px;
 
+    &__logo{
+      max-width: 100%;
+      padding-right: 12px;
+    }
+
     &__contacts{
       padding-left: 15px;
+
+      .col-4, .col{
+        padding: 0;
+      }
+
+      .col-4{
+        padding-bottom: 17px;
+      }
+
+      &-item{
+        padding-top: 0;
+        padding-bottom: 17px;
+      }
 
       &-icon{
         width: 14px;
@@ -362,6 +413,8 @@
 
       &-text{
         font-size: 10px;
+        left: 20px;
+        letter-spacing: 0.7px;
       }
     }
 
