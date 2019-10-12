@@ -223,19 +223,22 @@
   &__text {
     color: white;
 
-    &_bold{
+    &_medium{
+      padding-top: 10px;
+    }
+
+    &-bold{
       @include helvetica(bold);
       font-size: 20px;
       margin-left: 20px;
     }
 
-    &_medium{
+    &-medium{
       @include helvetica(medium);
       font-size: 16px;
       font-weight: 300;
       letter-spacing: 2px;
       margin-left: 20px;
-      padding-top: 10px;
     }
   }
 }
